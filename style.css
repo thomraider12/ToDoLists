@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Arima:wght@100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +31,7 @@ header h1 {
     margin-bottom: 20px;
     font-size: 1.8rem;
     color: #333;
+    font-family: "Arima";
 }
 
 .todo-app {
@@ -42,6 +45,7 @@ header h1 {
     border-radius: 8px; /* Bordas arredondadas no input */
     border: 1px solid #ccc;
     font-size: 1rem;
+    font-family: "Ubuntu";
 }
 
 #add-task-btn {
@@ -53,6 +57,7 @@ header h1 {
     border-radius: 8px; /* Bordas arredondadas no botão */
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: "Ubuntu";
 }
 
 #add-task-btn:hover {
@@ -62,6 +67,7 @@ header h1 {
 ul#task-list {
     list-style-type: none;
     margin-top: 20px;
+
 }
 
 li.task-item {
@@ -73,10 +79,12 @@ li.task-item {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 li.task-item .task-text {
-    font-size: 1rem;
+    font-size: larger;
+    font-family: "Agdasima";
 }
 
 button.delete-btn {
@@ -87,6 +95,7 @@ button.delete-btn {
     padding: 6px 12px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: "Ubuntu";
 }
 
 button.delete-btn:hover {
@@ -103,4 +112,6 @@ footer {
 footer p {
     font-size: 0.9rem;
     color: #333;
+    font-family: "Ubuntu";
+    font-size: large;
 }

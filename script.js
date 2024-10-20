@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const deleteBtn = document.createElement('button');
             deleteBtn.classList.add('delete-btn');
-            deleteBtn.textContent = 'Excluir';
+            deleteBtn.textContent = 'Apagar';
             deleteBtn.onclick = () => {
                 deleteTask(index);
             };
