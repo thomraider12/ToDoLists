@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0; /* Fundo claro */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Ocupa a altura total da tela */
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 16px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.todo-app {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px; /* Bordas arredondadas no input */
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#add-task-btn {
+    padding: 12px 18px;
+    margin-left: 10px;
+    border: none;
+    background-color: #4CAF50; /* Verde como no botão Play */
+    color: white;
+    border-radius: 8px; /* Bordas arredondadas no botão */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-task-btn:hover {
+    background-color: #45a049;
+}
+
+ul#task-list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li.task-item {
+    background-color: #f0f0f0;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Bordas arredondadas nas tarefas */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+li.task-item .task-text {
+    font-size: 1rem;
+}
+
+button.delete-btn {
+    background-color: #f44336; /* Vermelho como no botão Pause */
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.delete-btn:hover {
+    background-color: #e53935;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f9;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #333;
+}
